@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  
+  font-family: 'Baloo Bhai';
+}
+h2 {
+  margin-bottom: 32px;
+  margin-top: 68px;
+  text-align: center;
+  color: red;
+}
+
+
+.paragraph {
+  position: relative;
+    top: 0;
+    background-color:peachpuff;
+    margin: 15px;
+    padding: 40px 29px;
+    border: 1px solid #000;
+}
+.chicken{
+   position: absolute;
+    top: 0;
+    right: 0px;
+    background: rgb(161, 36, 94);
+    padding: 0px 15px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 992px) 
+{
+   .col-lg-4
+    {
+    float: left;
+    width : 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
